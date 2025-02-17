@@ -1,103 +1,105 @@
+import os
 import asyncio
-from crawl4ai import AsyncWebCrawler
+import json
+from pydantic import BaseModel, Field
+from typing import List
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
+from crawl4ai.extraction_strategy import LLMExtractionStrategy
 
-async def extract_laptop_features(url):
-    """
-    Extrae características de portátiles de una página con la estructura VTEX.
-    Se definen reglas para localizar:
-      - Procesador: se combinan "Modelo del procesador" y "Frecuencia del procesador"
-      - Memoria RAM: se extrae "Memoria interna"
-      - Almacenamiento: se combinan "SDD, capacidad" y "Unidad de almacenamiento"
-      - Tarjeta Gráfica: se extrae "Modelo de adaptador gráfico incorporado"
-      - Pantalla: se extrae "Resolución de la pantalla"
-      - Tamaño de Pantalla: se extrae "Diagonal de la pantalla"
-      - Batería: se extrae "Capacidad de batería"
-      - Peso: se extrae "Peso" (dentro de "Peso y dimensiones")
-      - Sistema Operativo: se extrae "Sistema operativo instalado"
-    """
-    extraction_rules = {
-        # Procesador: se extrae modelo y frecuencia para luego combinarlos
-        "procesador_modelo": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Modelo del procesador')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        "procesador_frecuencia": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Frecuencia del procesador')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Memoria RAM: se extrae la "Memoria interna"
-        "memoria_ram": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Memoria interna')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Almacenamiento: se extraen capacidad y tipo
-        "almacenamiento_capacidad": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('SDD, capacidad')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        "almacenamiento_tipo": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Unidad de almacenamiento')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Tarjeta Gráfica: se extrae el modelo del adaptador gráfico incorporado
-        "tarjeta_grafica": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Modelo de adaptador gráfico incorporado')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Pantalla: se extrae la resolución de la pantalla
-        "pantalla": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Resolución de la pantalla')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Tamaño de Pantalla: se extrae la diagonal de la pantalla
-        "tamano_pantalla": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Diagonal de la pantalla')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Batería: se extrae la capacidad de la batería
-        "bateria": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Capacidad de batería')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Peso: se extrae la fila que contiene "Peso"
-        "peso": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Peso')) td.vtex-table-description-value",
-            "attribute": "text"
-        },
-        # Sistema Operativo: se extrae el sistema operativo instalado
-        "sistema_operativo": {
-            "selector": "tr.vtex-table-description-row:has(td.vtex-table-description-key b:contains('Sistema operativo instalado')) td.vtex-table-description-value",
-            "attribute": "text"
-        }
-    }
+INSTRUCTION_TO_LLM = """
+Analiza la tabla HTML de especificaciones técnicas y extrae la siguiente información específica:
 
-    async with AsyncWebCrawler() as crawler:
-        result = await crawler.arun(url=url, extraction=extraction_rules)
-        # Supongamos que result.markup o result.dict() nos da un diccionario con los valores extraídos.
-        # Para este ejemplo asumimos que podemos acceder a los resultados como un diccionario:
-        data = result.dict() if hasattr(result, "dict") else result
+1. Para el procesador:
+   - Busca "Modelo del procesador" y extrae su valor
+   
+2. Para la memoria:
+   - Busca "Memoria interna" y extrae su valor en GB
 
-        # Post-procesado: combinar campos para "procesador" y "almacenamiento"
-        modelo = data.get("procesador_modelo", "").strip()
-        frecuencia = data.get("procesador_frecuencia", "").strip()
-        data["procesador"] = f"{modelo} - {frecuencia}" if modelo and frecuencia else modelo or frecuencia
+3. Para el almacenamiento:
+   - Busca "Capacidad total de almacenaje" y extrae su valor
 
-        alm_tipo = data.get("almacenamiento_tipo", "").strip()
-        alm_capacidad = data.get("almacenamiento_capacidad", "").strip()
-        data["almacenamiento"] = f"{alm_tipo} {alm_capacidad}" if alm_tipo and alm_capacidad else alm_tipo or alm_capacidad
+4. Para los gráficos:
+   - Busca "Modelo de adaptador gráfico incorporado" y extrae su valor
 
-        # Opcional: eliminar las claves intermedias si no se necesitan
-        for key in ["procesador_modelo", "procesador_frecuencia", "almacenamiento_tipo", "almacenamiento_capacidad"]:
-            data.pop(key, None)
+5. Para la pantalla:
+   - Combina "Diagonal de la pantalla" y "Resolución de la pantalla"
 
-        return data
+6. Para el sistema operativo:
+   - Busca "Sistema operativo instalado" y extrae su valor
+
+7. Para la batería:
+   - Busca "Capacidad de batería" y extrae su valor
+
+Devuelve los datos extraídos en un único objeto JSON con los campos exactamente como se definen en el esquema:
+{
+    "procesador": "valor",
+    "memoria": "valor",
+    "almacenamiento": "valor",
+    "graficos": "valor",
+    "pantalla": "valor",
+    "sistema_operativo": "valor",
+    "bateria": "valor"
+}
+"""
+
+class Product(BaseModel):
+    procesador: str = Field(description="Modelo del procesador")
+    memoria: str = Field(description="Memoria interna en GB")
+    almacenamiento: str = Field(description="Capacidad total de almacenaje")
+    graficos: str = Field(description="Modelo de adaptador gráfico incorporado")
+    pantalla: str = Field(description="Diagonal y resolución de la pantalla")
+    sistema_operativo: str = Field(description="Sistema operativo instalado")
+    bateria: str = Field(description="Capacidad de batería")
 
 async def main():
-    url = "https://www.pcbox.com/ht5306qa-lx004w-portatil-asus-proart-ht5306qa-lx004w--13-3--2k--snapdragon-x1-p/p"  # Reemplaza por la URL real del producto
-    features = await extract_laptop_features(url)
-    print("Características extraídas:")
-    for key, value in features.items():
-        print(f"{key}: {value}")
+    # 1. Define the LLM extraction strategy
+    llm_strategy = LLMExtractionStrategy(
+        provider="ollama/deepseek-custom",            # e.g. "ollama/llama2"
+        api_token="",
+        schema=Product.model_json_schema(),            # Or use model_json_schema()
+        extraction_type="schema",
+        instruction=INSTRUCTION_TO_LLM,
+        chunk_token_threshold=2048,
+        overlap_rate=0.1,
+        apply_chunking=True,
+        input_format="html",   # or "html", "fit_markdown"
+        extra_args={
+        "temperature": 0.0,
+        "max_tokens": 8192,     # Aumentado
+        "top_p": 0.1
+        }
+    )
+
+    # 2. Build the crawler config
+    crawl_config = CrawlerRunConfig(
+        extraction_strategy=llm_strategy,
+        cache_mode=CacheMode.BYPASS,
+        process_iframes=False,
+        remove_overlay_elements=True,
+        exclude_external_links=True,
+        css_selector="tr.vtex-table-description-content",
+        excluded_selector="div.vtex-render__container-id-product-comparator"
+    )
+
+    # 3. Create a browser config if needed
+    browser_cfg = BrowserConfig(headless=True, verbose=True)
+
+    async with AsyncWebCrawler(config=browser_cfg) as crawler:
+        # 4. Let's say we want to crawl a single page
+        result = await crawler.arun(
+            url="https://www.pcbox.com/ht5306qa-lx004w-portatil-asus-proart-ht5306qa-lx004w--13-3--2k--snapdragon-x1-p/p",
+            config=crawl_config
+        )
+
+        if result.success:
+            # 5. The extracted content is presumably JSON
+            data = json.loads(result.extracted_content)
+            print("Extracted items:", data)
+
+            # 6. Show usage stats
+            llm_strategy.show_usage()  # prints token usage
+        else:
+            print("Error:", result.error_message)
 
 if __name__ == "__main__":
     asyncio.run(main())

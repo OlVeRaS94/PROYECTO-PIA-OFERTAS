@@ -1,0 +1,55 @@
+Procesador,Memoria RAM,Almacenamiento,Tarjeta Gráfica,Pantalla,Batería,Peso,Sistema Operativo,Conectividad,Tamaño de Pantalla
+Intel Core Ultra 9 185H,16,2048,NVIDIA RTX™ 2000 Ada Laptop GPU ,"Tamaño: 16"" UHD+ (3840x2400); Frecuencia de Actualización: 120Hz; Tipo: Mini LED, IPS-Level; Certificación: VESA DisplayHDR™ 1000; Cobertura de Color: 100% DCI-P3 (Típico)",99.9,1.99,Windows 11 Pro,"Wi-Fi/Bluetooth: Intel® Killer™ Wi-Fi 7 BE1750, Bluetooth v5.4",16
+,16,512,,,,,,,
+,,256GB SSD M.2 2242 PCIe® 3.0x4 NVMe,,"15.6"" FHD (1920x1080) TN 250nits Anti-glare",Ión de Litio 38 Wh,1.7Kg,Sin Sistema Operativo,,
+Intel,16,,Intel Iris Xe Graphics,,,,,,
+Intel,8,,Intel Iris Xe Graphics,,,,,,
+,8GB (2 x 4 GB) RAM DDR4-3200 MHz,,,"15,6"" (39,6 cm) FHD, bisel micro-edge, antirreflectante, 250 nits, 45 % NTSC (1920 x 1080)",,,Sin Sistema Operativo FreeDOS,,
+,,,,,,,,,
+,,,,,,,,,
+,16,512,,,,,,,
+Intel,16,,Intel,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Intel,16,,Intel Iris Xe Graphics,,,,,,
+Intel,16,,NVIDIA,,,,,,
+Intel Core,16,,,,,,,,
+AMD,16,,AMD Radeon 660M,,,,,,
+AMD,8,,AMD Radeon 610M,,,,,,
+Intel Core Ultra 7 155H,16,1024,,"Tamaño: 16"" QHD+ (2560x1600).; Frecuencia de actualización: 240Hz, IPS-Level.; Cobertura de color: 100% DCI-P3 (Typical).",,,,LAN: Gigabit Ethernet.; Wi-Fi: Intel® Wi-Fi 6E AX211.; Bluetooth: v5.3.,16
+Intel,8,,Intel® UHD Graphics,,,,,,
+Intel,16,,NVIDIA,,,,,,
+Intel,8,,Intel® UHD Graphics,,,,,,
+Intel,8,512,Intel® UHD Graphics,,,,,,
+Intel,16,,Intel Iris Xe Graphics,,,,,,
+AMD Ryzen™ 7 3700U (2.30 - 4.00 GHz),,512 GB SSD,,"39.6 cm (15,6”) Full HD con tecnología IPS y resolución 1,920x1,080px",2 celdas - Polímero de Litio con 45 vatios,,Sin Sistema operativo,"Intel® wireless AC-3165 con función Bluetooth® 4.2 integrada, Rápida tecnología Wireless LAN-AC standard",
+AMD Ryzen 7 3700U (2.3 - 4 GHz),,512 GB SSD,,"39.6 cm (15,6”) Full HD con tecnología IPS y resolución 1,920x1,080px",2 celdas - Polímero de Litio con 45 vatios,,Windows 11 Home,"Intel® wireless AC-3165 con función Bluetooth® 4.2 integrada, Rápida tecnología Wireless LAN-AC standard",
+,,,,,"4 celdas, 82 Whrs",,,,
+,,,,,4 Celdas – 99.9 Whrs,2.89 kg,,,
+,,,,,,,,,
+,,,,Tamaño: 14 pulgadas; Tipo: IPS; Resolución: 1920 x 1080 píxeles; Relación de Aspecto: 16:9; Cobertura de Color: 45% NTSC,,,Windows 10 Home,"Wi-Fi: IEEE 802.11 a/b/g/n/ac (2.4 GHz / 5 GHz), 2 x 2 MIMO; Bluetooth: 5.0 (compatible con versiones 4.2, 4.1, 4.0, 3.0, y 2.1 + EDR)",
+"Intel® Core™ i9-14900HX de 14.ª generación, 2,4 GHz (Boost hasta 5,8 GHz), 24 núcleos/32 hilos, 36 MB de caché",16 GB DDR5-5600MHz,2 TB SSD PCIe 4.0 NVMe M.2,"NVIDIA® GeForce RTX™ 4070 con 8 GB GDDR6 VRAM, TGP hasta 140 W, 4608 núcleos CUDA®, frecuencia Boost hasta 2175 MHz",,"Batería recargable de polímero de iones de litio de 95,2 Whr","2,45 kg / 5,40 lbs",Windows 11 Home,"Wi-Fi 7, Intel BE200, Bluetooth® 5.4",
+Intel Core i7-14650HX,,1024,,"Tamaño: 16""; Tipo: IPS-Level; Resolución: FHD+ 1920x1200px; Frecuencia de actualización: 144Hz; Brillo: 350 nits; Cobertura de color: NTSC 45%",,,FreeDOS,Intel® Killer™ Wi-Fi 7 BE1750; Bluetooth v5.4; Webcam HD (30fps@720p); Micrófono: Sí,16
+,,,,,,,,,
+,,512,,Tamaño: 15.6 pulgadas; Resolución: Full HD (1920 x 1080 píxeles); Frecuencia de Actualización: 144 Hz; Tipo de Panel: IPS-Level,,,FreeDOS,,
+,,1024,,Tamaño: 16 pulgadas; Resolución: UHD+ (3840 x 2400 píxeles); Frecuencia de Actualización: 120 Hz; Tipo: Mini LED IPS-Level; Cobertura de Color: 100% DCI-P3 (Typical),,,FreeDOS,,
+,,1024,,Tamaño: 16 pulgadas; Resolución: QHD+ (2560 x 1600 píxeles); Frecuencia de Actualización: 240 Hz; Tipo: IPS-Level; Cobertura de Color: 100% DCI-P3 (Typical),,,Windows 11 Home,,
+,,1024,,Tamaño: 16 pulgadas; Resolución: QHD+ (2560 x 1600 píxeles); Frecuencia de Actualización: 240 Hz; Tipo: IPS-Level; Cobertura de Color: 100% DCI-P3 (Typical),,,Windows 11 Home,,
+,,512,,Tamaño: 15.6 pulgadas; Resolución: FHD (1920 x 1080 píxeles); Frecuencia de Actualización: 144 Hz; Tipo: IPS-Level,,,FreeDOS,,
+,,1024,,Tamaño: 16 pulgadas; Resolución: FHD+ (1920 x 1200 píxeles); Frecuencia de Actualización: 144 Hz; Tipo: IPS-Level,,,FreeDOS,,
+,,1024,,"Tamaño: 18 pulgadas; Resolución: UHD+ (3840 x 2400 píxeles); Frecuencia de Actualización: 120 Hz; Tipo: Mini LED, IPS-Level; Certificación: VESA DisplayHDR™ 1000; Cobertura de Color: 100% DCI-P3 (Típico)",,,Windows 11 Home,,
+,,1024,,Tamaño: 16 pulgadas; Resolución: QHD+ (2560 x 1600 píxeles); Frecuencia de Actualización: 240 Hz; Tipo: IPS-Level; Cobertura de Color: 100% DCI-P3 (Típico),,,FreeDOS,,
+,,512,,Tamaño: 15.6 pulgadas; Resolución: Full HD (1920 x 1080 píxeles); Frecuencia de Actualización: 144 Hz; Tipo: IPS-Level,,,FreeDOS,,
+,,512,,Tamaño: 15.6 pulgadas; Resolución: Full HD (1920 x 1080 píxeles); Frecuencia de Actualización: 144 Hz; Tipo: IPS-Level,,,FreeDOS,,
+,,1024,,"Tamaño: 17 pulgadas; Resolución: QHD+ (2560 x 1600 píxeles); Frecuencia de Actualización: 165 Hz; Tipo: IPS-Level, táctil; Cobertura de Color: 100% DCI-P3 (Típico); Compatibilidad: Soporte para MSI Pen (opcional) con Tecnología MSI Precision Pen Touch (MPPT)",,,Windows 11 Pro,,
+,,512,,Tamaño: 14 pulgadas; Resolución: FHD+ (1920 x 1200 píxeles); Frecuencia de Actualización: 144 Hz; Tipo: IPS-Level; Cobertura de Color: 100% sRGB (Típico),,,FreeDOS,,
+,,2048,Intel® Arc™ ,"Tamaño: 16 pulgadas; Resolución: UHD+ (3840 x 2400 píxeles); Tipo: OLED, VESA DisplayHDR™ 600 Certified; Cobertura de Color: 100% DCI-P3 (Típico)",,,Windows 11 Pro,,
+,,512,,Tamaño: 15.6 pulgadas.; Resolución: Full HD (1920 x 1080 píxeles).; Tipo de panel: IPS-Level antirreflejos.; Frecuencia de actualización: 144 Hz.,,,,"Wi-Fi: 6E de alta velocidad y baja latencia.; Bluetooth: 5.1.; Puertos: 2x USB-A 3.2 Gen1.
+2x USB-C 3.2 Gen1.
+1x HDMI (4K @ 60Hz).
+1x RJ-45 Ethernet.
+1x conector combinado de auriculares/micrófono.; 2x USB-A 3.2 Gen1.; 2x USB-C 3.2 Gen1.; 1x HDMI (4K @ 60Hz).; 1x RJ-45 Ethernet.; 1x conector combinado de auriculares/micrófono.; 2x USB-A 3.2 Gen1.; 2x USB-C 3.2 Gen1.; 1x HDMI (4K @ 60Hz).; 1x RJ-45 Ethernet.; 1x conector combinado de auriculares/micrófono.",
+Intel Core i9-14900HX,,1024,,"Tamaño: 17""; Resolución: QHD+ (2560 x 1600); Frecuencia de Actualización: 165 Hz; Tipo de Panel: IPS-Level; Cobertura de Color: 100% DCI-P3 (Típico); Función Táctil: Sí, compatible con MSI Precision Pen Touch Technology (MPPT); Compatibilidad con Stylus: Soporte para MSI Pen (opcional)",90,,Windows 11 Pro,,17
+,16,512,NVIDIA GeForce RTX 2050,"Tamaño: 14""; Relación de Aspecto: 16:10; Resolución: FHD+ (1920 x 1200); Cobertura de Color: 100% sRGB (típico); Brillo: 400 nits; Tipo: Panel IPS-Level de bajo consumo",72,,FreeDOS,Wi-Fi: Intel® Killer™ AX Wi-Fi 6E; Bluetooth: 5.3,14
+AMD Ryzen Z1 Extreme,16,512,,"Tamaño: 7"" - 17,8 cm; Resolución: FHD (1920 x 1080) 16:9; Tipo: Nivel IPS, pantalla brillante; sRGB: 100%; Adobe: 75,35%; Protección: Gorilla® Glass DXC; Táctil: Pantalla táctil (10 puntos multitáctil); Tasa de refresco: 120 Hz; Tiempo de respuesta: 7 ms; Brillo: 500 nits; Tecnología: FreeSync Premium",,,,,7
+,,,,,,,,,

@@ -1,2 +1,5 @@
-Procesador,RAM,Tipo RAM,Almacenamiento,Graficos,Pantalla,Resolucion,Sistema Operativo,Bateria
-Intel Core i5-1135G7,8,DDR4,512,Intel Iris Xe Graphics,15.6,1920x1080,No,70
+Procesador,RAM,Tipo RAM,Almacenamiento,Graficos,Pantalla,Resolucion,Sistema Operativo,Bateria,Precio
+Intel Core i5-1135G7,,,,,,,,,"549,00"
+AMD Ryzen 7-8845HS,,,,,,,,,"1862,41"
+Intel Core i7-14650HX,,,,,,,,,"1471,11"
+Intel Core i7-12650H,,,,,,,,,"960,46"

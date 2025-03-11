@@ -1,0 +1,248 @@
+Procesador,RAM,Tipo RAM,Almacenamiento,Graficos,Pantalla,Resolucion,Sistema Operativo,Bateria,Precio,Chollo,Probabilidad_Chollo
+Intel Core i5-1135G7,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,No,70.0,549.0,1,0.99
+AMD Ryzen 7-8845HS,32.0,DDR5,1.0,AMD Radeon 780M,17.3,2560x1440,Windows 11 Home,83.0,1862.41,0,0.01
+Intel Core i7-14650HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.1,1920x1080,FreeDOS,70.0,1471.11,0,0.34
+Intel Core i7-12650H,16.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,70.0,960.46,1,0.99
+AMD Ryzen 7-8845HS,32.0,DDR5,1.0,AMD Radeon 780M,17.3,1920x1080,FreeDOS,83.0,1471.11,0,0.03
+Intel Core i9-14900HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.1,2560x1440,Windows 11 Home,83.0,2058.06,0,0.19
+AMD Ryzen 9-8945HS,32.0,DDR5,1.0,AMD Radeon 780M,14.0,2880x1800,No,73.0,2308.74,0,0.02
+Intel Core i7-13700H,16.0,DDR4,1.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,70.0,1373.28,0,0.5
+Intel Core i7-13700H,16.0,DDR5,512.0,Intel Iris Xe Graphics,16.1,1920x1080,FreeDOS,70.0,1265.66,1,0.93
+AMD Ryzen 7-8845HS,16.0,DDR5,1.0,AMD Radeon Graphics,15.6,1920x1080,FreeDOS,70.0,1108.08,0,0.05
+Intel Core i7-14650HX,16.0,DDR5,1.0,Intel® UHD Graphics,16.1,1920x1080,FreeDOS,70.0,1375.59,0,0.44
+Qualcomm Snapdragon-X1-P42-100,16.0,DDR5,1.0,Qualcomm Adreno GPU,13.3,2880x1800,Windows 11 Home,70.0,1575.99,0,0.0
+Intel Core i7-14650HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.1,1920x1080,FreeDOS,70.0,1610.85,0,0.34
+AMD Ryzen 9-8945HS,32.0,DDR5,1.0,AMD Radeon 780M,17.3,2560x1440,Windows 11 Home,83.0,1764.58,0,0.01
+Intel Core i7-12650H,16.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,70.0,955.32,1,0.99
+Intel Core i7-14650HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.1,1920x1080,Windows 11 Home,70.0,1568.95,0,0.32
+AMD Ryzen 9-8945HS,32.0,DDR5,1.0,AMD Radeon 780M,17.3,2560x1440,FreeDOS,83.0,1666.76,0,0.01
+Intel Core i9-14900HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.1,2560x1440,Windows 11 Home,83.0,2253.72,0,0.19
+AMD Ryzen 7-8845HS,32.0,DDR5,1.0,AMD Radeon 780M,17.3,1920x1080,Windows 11 Home,83.0,1568.95,0,0.03
+Intel Core i7-13620H,32.0,DDR5,1.0,Intel® UHD Graphics,16.1,1920x1080,FreeDOS,83.0,1568.95,0,0.32
+Intel Core i3-1215U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,507.03,1,0.97
+Intel Core i5-1235U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,630.0,1,0.99
+Intel Core i7-1255U,16.0,DDR4,1000.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,41.0,678.0,1,0.99
+Intel Core Ultra 9-185H,32.0,DDR5,,,16.0,1920x1200,,86.0,3590.99,0,0.46
+Intel Core i5-1235U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,566.99,1,0.99
+Intel Core Ultra 5-125U,16.0,DDR5,512.0,Intel Graphics,16.0,2048x1280,Windows 11 Home,59.0,967.0,1,0.97
+Intel Core Ultra 7-155H,32.0,DDR5,1.0,,14.0,1920x1200,,56.0,1849.99,1,0.7
+Intel Core i3-1215U,8.0,DDR4,256.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,41.0,417.99,1,0.84
+AMD Ryzen 5-5625U,8.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,FreeDOS,41.0,454.04,0,0.13
+Intel Core i7-1255U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,751.99,1,1.0
+Intel Core i7-1255U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,41.0,582.99,1,1.0
+Intel Core Ultra 5-125U,16.0,DDR5,512.0,Intel Graphics,14.0,1920x1200,Windows 11 Home,59.0,981.99,1,0.98
+Intel Celeron-N4500,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,41.0,355.99,0,0.17
+Intel Core i7-1355U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,683.99,1,1.0
+AMD Ryzen 5-8640HS,16.0,DDR5,512.0,AMD Radeon Graphics,14.0,1920x1200,Windows 11 Home,59.0,883.99,0,0.11
+Intel Core i5-1235U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,41.0,539.01,1,0.99
+Intel Core i5-1235U,8.0,DDR4,256.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,515.99,1,0.91
+AMD Ryzen 3-7330U,8.0,DDR4,256.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,388.0,0,0.03
+AMD Ryzen 5-7520U,16.0,DDR5,512.0,AMD Radeon Graphics,15.6,1920x1080,FreeDOS,41.0,489.0,0,0.14
+Intel Core i7-1255U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,657.05,1,1.0
+Qualcomm Snapdragon-X1E-78-100,32.0,DDR5,1.0,Qualcomm Adreno GPU,14.0,2240x1400,Windows 11 Home,59.0,1372.99,0,0.01
+Intel Core i5-,16.0,DDR4,512.0,,14.0,1920x1080,,43.0,864.99,1,0.96
+AMD Ryzen 7-7730U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,701.99,0,0.13
+Intel Core Ultra 7-258V,,,,,14.0,2880x1800,Windows 11 Home,64.0,1764.99,1,0.92
+AMD Ryzen 7-8840U,16.0,DDR5,1.0,AMD Radeon Graphics,16.0,1920x1200,Windows 11 Home,59.0,932.99,0,0.02
+Intel Celeron-N100,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,41.0,408.99,0,0.16
+Intel Core Ultra 7-155H,32.0,DDR5,1.0,Intel Arc Graphics,14.0,2880x1800,Windows 11 Pro,68.0,2034.99,1,0.67
+Intel Core Ultra 7-155H,32.0,DDR5,512.0,Intel Arc Graphics,14.0,2880x1800,Windows 11 Home,68.0,1274.99,1,0.83
+AMD Ryzen 5-5625U,8.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,493.04,0,0.13
+Intel Core Ultra 7-155H,32.0,DDR5,1.0,Intel Arc Graphics,16.0,2560x1600,Windows 11 Home,68.0,1764.99,1,0.64
+Intel Core Ultra 7-155H,64.0,DDR5,1.0,,16.0,1920x1200,,76.0,1979.2,1,0.63
+AMD Ryzen 5-5500U,8.0,DDR4,512.0,,15.6,1920x1080,,,599.0,0,0.13
+AMD Ryzen 3-7320U,8.0,DDR5,256.0,AMD Radeon 610M,15.6,1920x1080,Windows 11 Home in S mode,41.0,466.99,0,0.04
+Intel Core i7-1255U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,711.99,1,1.0
+Intel Core i5-8350U,16.0,DDR4,256.0,Intel® UHD Graphics 620,14.0,1920x1080,Windows 11 Pro,,587.68,1,0.92
+Intel Core Ultra 7-155U,16.0,DDR5,512.0,Intel Graphics,16.0,1920x1200,Windows 11 Home,59.0,978.02,1,0.97
+Intel Core Ultra 5-125H,16.0,DDR5,1.0,Intel Arc Graphics,14.0,2560x1600,Windows 11 Home,68.0,981.99,1,0.83
+Intel Core Ultra 7-155U,32.0,DDR5,1.0,Intel Graphics,16.0,2880x1800,Windows 11 Home,68.0,1471.0,1,0.63
+Intel Core Ultra 7-155H,16.0,DDR5,1.0,,14.0,1920x1080,Windows 11 Home,41.0,981.99,1,0.86
+Intel Celeron-N100,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,41.0,391.99,0,0.16
+Intel Core i5-,32.0,DDR5,,,16.0,1920x1200,,56.0,1612.99,1,0.52
+Intel Core i3-N305,8.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,41.0,442.99,1,0.96
+Qualcomm-X1E-78-100,,,,,14.0,2240x1400,,59.0,2028.0,0,0.09
+AMD Ryzen 7-7730U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,613.0,0,0.14
+Intel Core Ultra 5-125H,16.0,DDR5,,,14.0,1920x1200,,56.0,1493.99,1,0.97
+AMD Ryzen 7-8840HS,16.0,DDR5,1.0,AMD Radeon Graphics,16.0,2880x1800,Windows 11 Home,68.0,1274.99,0,0.03
+Intel Core i3-N305,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,41.0,489.99,1,0.79
+Intel Core i5-1235U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,41.0,551.99,1,0.99
+Qualcomm Snapdragon-X1E-78-100,16.0,DDR5,1.0,Qualcomm Adreno GPU,14.0,2240x1400,Windows 11 Home,59.0,1274.99,0,0.01
+Intel Core i7-1255U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,41.0,661.99,1,1.0
+AMD Ryzen 5-5625U,16.0,DDR4,1000.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,590.99,0,0.41
+AMD Ryzen 5-7520U,16.0,DDR5,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,537.0,0,0.14
+Intel Core i5-1334U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Pro,42.0,999.23,1,0.99
+AMD Ryzen 5-7520U,8.0,DDR5,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,540.0,0,0.13
+Intel Core i7-1255U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,41.0,630.99,1,1.0
+Intel Core Ultra 7-155H,32.0,DDR5,,,16.0,1920x1200,,86.0,2637.99,1,0.76
+Intel Core Ultra 7-165H,32.0,DDR5,,,16.0,1920x1200,,86.0,2974.0,0,0.46
+AMD Ryzen 7-7730U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,608.99,0,0.14
+Intel Core i7-13650HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.0,2560x1600,Windows 11 Home,99.0,1679.0,0,0.21
+Intel Core i5-12450H,16.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,No,52.0,1020.08,1,1.0
+Intel Core Ultra 7-155H,32.0,DDR5,1.0,Intel Arc Graphics,14.0,2880x1800,Windows 11 Home,90.0,1729.01,1,0.63
+Intel Core i5-13420H,16.0,DDR5,512.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,53.0,999.0,1,0.99
+Intel Core i7-13620H,16.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,52.0,869.0,1,1.0
+Intel Core i5-12500H,16.0,DDR4,1.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDos,54.0,949.0,1,0.52
+Intel Core i7-13620H,16.0,DDR5,1.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,53.0,1259.78,0,0.5
+Intel Core i7-13620H,16.0,DDR5,512.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,53.0,969.0,1,1.0
+Intel Core i3-1315U,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Pro,41.0,610.99,1,0.8
+Intel Core i7-13620H,32.0,DDR5,1000.0,Intel® UHD Graphics,15.6,1920x1080,No,53.0,1249.0,1,0.84
+Intel Core i7-14700HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.0,2560x1600,Windows 11 Home,90.0,1899.0,0,0.21
+Intel Core i7-14650HX,16.0,DDR5,1.0,Intel® UHD Graphics,16.0,2560x1600,Windows 11 Home,90.0,1599.0,0,0.31
+Intel Core Ultra 7-155H,16.0,DDR5,1.0,Intel Arc Graphics,16.0,2560x1600,Windows 11 Home,99.0,1729.01,1,0.73
+Intel Core i7-14650HX,16.0,DDR5,1.0,Intel® UHD Graphics,16.0,2560x1600,Windows 11 Home,99.0,1679.0,0,0.3
+Intel Core i7-13700HX,32.0,DDR5,1000.0,Intel® UHD Graphics,17.0,2560x1600,Windows 11 Home,90.0,,1,0.62
+Intel Core i5-13500H,16.0,DDR5,1.0,,15.6,1920x1080,No,54.0,1019.0,1,0.52
+Intel Core i5-13420H,16.0,DDR5,1.0,Intel® UHD Graphics,15.6,1920x1080,No,53.0,949.0,1,0.52
+Intel Core i7-13620H,16.0,DDR5,1.0,,14.0,2880x1800,Windows 11 Home,63.0,1919.0,0,0.39
+Apple M-M4 Pro,24.0,,1.0,Apple GPU,14.2,3024x1964,macOS Sequoia,72.0,2812.58,0,0.0
+Intel Core i7-14650HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.0,2560x1600,Windows 11 Home,99.0,1609.0,0,0.22
+Intel Core Ultra 7-155H,16.0,DDR5,1.0,Intel Arc Graphics,16.0,2880x1800,Windows 11 Home,76.0,2611.99,0,0.41
+Apple M-M4 Max,36.0,,1.0,Apple GPU,16.2,3456x2234,macOS Sequoia,100.0,3955.16,0,0.0
+Apple M-M3,8.0,,512.0,Apple GPU,13.6,2560x1664,macOS Sonoma,52.0,1346.28,0,0.13
+Apple M-M3,24.0,,512.0,Apple GPU,13.6,2560x1664,macOS Sequoia,52.0,1679.54,0,0.09
+Apple M-M4 Pro,24.0,,512.0,Apple GPU,14.2,3024x1964,macOS Sequoia,72.0,2336.51,0,0.03
+Apple M-M2,8.0,,512.0,Apple GPU,13.6,2560x1664,macOS Monterey,52.0,1260.59,0,0.1
+Apple M-M2,16.0,,256.0,Apple GPU,13.6,2560x1664,macOS Sonoma,52.0,1017.61,0,0.1
+Apple M-M4 Max,36.0,,1.0,Apple GPU,14.2,3024x1964,macOS Sequoia,72.0,3669.51,0,0.0
+Apple M-M3,8.0,,256.0,Apple GPU,23.5,4480x2520,macOS Sonoma,,1564.95,0,0.08
+Apple M-M4,16.0,,512.0,Apple GPU,14.2,3024x1964,macOS Sequoia,72.0,1827.15,0,0.06
+Apple M-M2,8.0,,512.0,Apple GPU,13.6,2560x1664,macOS Monterey,52.0,1260.59,0,0.1
+Apple M-M3 Max,36.0,,1.0,Apple GPU,16.2,3456x2234,macOS Sonoma,100.0,3863.68,0,0.0
+Apple M-M3,8.0,,512.0,Apple GPU,15.3,2880x1864,macOS Sonoma,66.0,1641.59,0,0.06
+Apple M-M3,16.0,,512.0,Apple GPU,15.3,2880x1864,macOS Sonoma,66.0,1746.19,0,0.04
+Apple M-M3,16.0,,512.0,Apple GPU,15.3,2880x1864,macOS Sonoma,66.0,1746.19,0,0.04
+Apple M-M4 Max,48.0,,1.0,Apple GPU,16.2,3456x2234,macOS Sequoia,100.0,4526.43,0,0.0
+Intel Core i7-12650H,16.0,DDR4,1.0,Intel® UHD Graphics,17.3,1920x1080,Windows 11 Home,,1310.78,0,0.42
+Apple M-M4 Max,48.0,,1.0,Apple GPU,16.2,3456x2234,macOS Sequoia,100.0,4553.33,0,0.0
+Apple M-M3,16.0,,256.0,Apple GPU,13.6,2560x1664,macOS Sequoia,52.0,1241.54,0,0.09
+Apple M-M3,16.0,,256.0,Apple GPU,13.6,2560x1664,macOS Sequoia,52.0,1248.9,0,0.06
+Apple M-M3,16.0,,256.0,Apple GPU,13.6,2560x1664,macOS Sequoia,52.0,1241.54,0,0.09
+Apple M-M4 Pro,48.0,,512.0,Apple GPU,16.2,3456x2234,macOS Sequoia,100.0,3250.58,0,0.01
+Apple M-M3,24.0,,512.0,Apple GPU,13.6,2560x1664,macOS Sequoia,52.0,1679.54,0,0.09
+Intel Core i7-13620H,16.0,DDR5,1.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,54.0,1084.66,1,0.8
+Intel Core i7-13650HX,16.0,DDR5,1.0,Intel® UHD Graphics,16.0,2560x1600,FreeDOS,99.0,1347.52,0,0.36
+Apple M-M3,16.0,,256.0,Apple GPU,15.3,2880x1864,macOS Sequoia,66.0,1527.19,0,0.02
+Intel Core i7-13620H,16.0,DDR5,1.0,Intel® UHD Graphics,15.6,1920x1080,FreeDOS,54.0,1015.83,1,0.82
+Apple M-M3,24.0,,512.0,Apple GPU,15.3,2880x1864,macOS Sequoia,66.0,1965.16,0,0.02
+Apple M-M2,16.0,,256.0,Apple GPU,13.6,2560x1664,macOS Sonoma,52.0,1017.61,0,0.1
+Apple M-M3,16.0,,256.0,Apple GPU,15.3,2880x1864,macOS Sequoia,66.0,1527.19,0,0.02
+Apple M-M4 Pro,48.0,,512.0,Apple GPU,16.2,3456x2234,macOS Sequoia,100.0,3269.89,0,0.01
+Apple M-M3,24.0,,512.0,Apple GPU,13.6,2560x1664,macOS Sequoia,52.0,1679.54,0,0.09
+Apple M-M3,8.0,,256.0,Apple GPU,15.3,2880x1864,macOS Sonoma,66.0,1412.94,0,0.04
+Apple M-M4 Max,36.0,,1.0,Apple GPU,14.2,3024x1964,macOS Sequoia,72.0,3669.51,0,0.0
+Apple M-M4 Pro,24.0,,1.0,Apple GPU,14.2,3024x1964,macOS Sequoia,72.0,2812.58,0,0.0
+Apple M-M4 Max,36.0,,1.0,Apple GPU,16.2,3456x2234,macOS Sequoia,100.0,3955.16,0,0.0
+Apple M-M3,16.0,,256.0,Apple GPU,15.3,2880x1864,macOS Sequoia,66.0,1527.19,0,0.02
+Intel Core i7-13700H,16.0,DDR5,512.0,,16.0,1920x1200,FreeDOS,54.0,1145.35,1,0.96
+Intel Core i5-13420H,8.0,DDR4,512.0,Intel® UHD Graphics,14.0,1920x1080,FreeDos,38.0,501.99,1,0.96
+AMD Ryzen 7-5700U,8.0,DDR4,512.0,AMD Radeon,15.6,1920x1080,Windows 10 Home en modo S,38.0,698.99,0,0.13
+Intel Core i7-13700H,16.0,DDR5,512.0,Intel Iris Xe Graphics,14.5,2560x1600,Windows 11 Home,73.0,1333.99,1,0.87
+Intel Core i7-1355U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,38.0,683.0,1,1.0
+AMD Ryzen 5-7520U,16.0,DDR5,512.0,AMD Radeon 610M,15.6,1920x1080,No,38.0,469.0,0,0.17
+Intel Core i3-1115G4,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,No,45.0,258.99,1,0.94
+Intel Core i5-13420H,16.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,38.0,596.99,1,0.98
+Intel Core i3-1215U,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,38.0,393.99,1,0.82
+Intel Core i5-,8.0,DDR4,256.0,Intel® UHD Graphics 620,13.3,1920x1080,Windows 10 Pro,51.0,329.89,1,0.95
+Intel Core i7-1355U,16.0,DDR5,1.0,Intel Iris Xe Graphics,13.3,2880x1800,Windows 11 Home,80.0,2327.99,0,0.35
+Intel Core i7-1355U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,38.0,622.99,1,1.0
+Intel Core i7-1255U,16.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,48.0,641.0,1,0.99
+Intel Core i7-1360P,32.0,DDR5,1.0,Intel Iris Xe Graphics,17.0,2560x1600,Windows 11 Home,90.0,1817.0,0,0.27
+AMD Ryzen 7-5700U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,No,42.0,645.99,0,0.17
+Intel Core i5-12450H,16.0,DDR5,1.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,47.0,689.0,1,0.77
+AMD Ryzen 7-5700U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,48.0,562.99,0,0.14
+AMD Ryzen 7-7730U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,38.0,576.0,0,0.15
+Intel Core i7-13620H,16.0,DDR5,1.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,60.0,1499.99,0,0.46
+Intel Core i3-1315U,8.0,DDR4,512.0,Intel® UHD Graphics,14.0,1920x1080,Windows 11 Home,38.0,563.99,1,0.91
+Intel Core i3-1215U,8.0,DDR4,256.0,Intel® UHD Graphics,15.6,1920x1080,No,38.0,371.0,1,0.9
+AMD Ryzen 7-7435HS,24.0,DDR5,1.0,No disponible,15.6,1920x1080,No,60.0,1100.99,0,0.07
+Intel Core Ultra 7-155H,32.0,DDR5,1.0,Intel Arc Graphics,16.0,2048x1280,Windows 11 Home,76.0,1314.99,1,0.72
+AMD Ryzen 5-7530U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,537.99,0,0.14
+Intel Core i5-1334U,16.0,DDR5,512.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,,528.0,1,0.99
+AMD Ryzen 5-7520U,8.0,DDR5,256.0,AMD Radeon 610M,15.6,1920x1080,Windows 11 Home,38.0,551.0,0,0.04
+Intel Core i5-13420H,16.0,DDR5,1.0,Intel® UHD Graphics,16.0,1920x1200,Windows 11 Home,47.0,767.99,1,0.72
+Intel Core i5-1334U,8.0,DDR5,512.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,,475.0,1,0.99
+Intel Core 5-i5-1135G7,8.0,DDR4,,No disponible,15.6,1920x1080,,45.0,329.99,1,0.58
+AMD Ryzen 7-7730U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,41.0,593.99,0,0.14
+Intel Core i5-1235U,16.0,DDR5,256.0,Intel Iris Xe Graphics,12.4,1536x1024,Windows 11 Pro,41.0,1302.99,1,0.53
+AMD Ryzen 7-5700U,16.0,DDR4,1.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,42.0,731.99,0,0.03
+Intel Core Ultra 7-155H,16.0,DDR5,512.0,Intel Arc Graphics,16.0,2560x1600,No,77.0,1136.99,1,0.95
+Intel Core i3-1215U,8.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,No,38.0,441.0,1,1.0
+AMD Ryzen 7-5700U,16.0,DDR4,1.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,42.0,701.99,0,0.03
+Intel Core i7-13620H,16.0,DDR5,1.0,,14.0,2880x1800,Windows 11 Home,63.0,1098.99,1,0.73
+Intel Core i7-9850H,32.0,DDR4,1.0,Intel® UHD Graphics 630,15.6,1920x1080,Windows 10 Pro,,1429.18,0,0.45
+Intel Core Ultra 5-125H,16.0,DDR5,512.0,Intel Arc Graphics,15.6,,Windows 11 Home,55.0,911.99,1,1.0
+Intel Core i5-12450HX,24.0,DDR5,512.0,Intel® UHD Graphics,15.6,1920x1080,No,60.0,901.99,1,0.89
+AMD Ryzen 5-7520U,8.0,DDR5,512.0,AMD Radeon 610M,15.6,1920x1080,Windows 11 Home,38.0,441.99,0,0.13
+AMD Ryzen 3-7320U,8.0,DDR5,256.0,AMD Radeon 610M,15.6,1920x1080,Windows 11 Home,38.0,372.99,0,0.03
+Intel Core i7-1255U,16.0,DDR5,1.0,Intel Iris Xe Graphics,16.0,1920x1080,Windows 11 Home,51.0,754.99,1,0.81
+Qualcomm Snapdragon-X1E-80-100,16.0,DDR5,256.0,Qualcomm Adreno GPU,15.0,2496x1664,Windows 11 Home,66.0,1530.0,0,0.0
+Intel Core Ultra 7-155H,16.0,DDR5,512.0,Intel Arc Graphics,16.0,2560x1600,FreeDOS,77.0,1356.0,1,0.95
+AMD Ryzen 5-5500U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,38.0,635.0,0,0.15
+Intel Core Ultra 7-155H,32.0,DDR5,1.0,Intel Arc Graphics,15.6,1920x1080,Windows 11 Home,72.0,1527.99,1,0.72
+Intel Core Ultra 7-155U,32.0,DDR5,1.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,58.0,2298.0,1,0.71
+Qualcomm Snapdragon-X1E-80-100,16.0,DDR5,512.0,Qualcomm Adreno GPU,15.0,2496x1664,Windows 11 Home,66.0,1734.99,0,0.03
+AMD Ryzen 7-5700U,8.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,38.0,543.04,0,0.14
+Intel Core i7-1255U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,FreeDOS,42.0,564.02,1,1.0
+Intel Core i7-1255U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,38.0,630.0,1,1.0
+Intel Core i5-1130G7,8.0,DDR4,256.0,Intel Iris Xe Graphics,14.0,1920x1080,ChromeOS,54.0,929.99,1,0.83
+Intel Core i5-13420H,16.0,DDR5,1.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,47.0,739.0,1,0.76
+AMD Ryzen 5-5500U,8.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,38.0,562.99,0,0.14
+Intel Core i5-12450H,16.0,DDR5,512.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,47.0,652.0,1,0.98
+Intel Core i5-13420H,16.0,DDR4,512.0,Intel Iris Xe Graphics,17.3,1920x1080,Windows 11 Home,45.0,773.0,1,0.95
+Intel Core i3-1315U,8.0,DDR4,256.0,Intel® UHD Graphics,17.3,1920x1080,Windows 11 Home,45.0,601.99,1,0.72
+Intel Core Ultra 7-155H,32.0,DDR5,2.0,Intel Arc Graphics,16.0,2560x1600,Windows 11 Home,77.0,1851.0,1,0.63
+Intel Core i3-1315U,8.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,No,38.0,380.99,1,0.98
+Intel Core Ultra 7-155H,16.0,DDR5,512.0,Intel Arc Graphics,15.6,1920x1080,Windows 11 Home,72.0,1125.0,1,0.99
+Intel Core Ultra 7-155H,16.0,DDR5,1.0,Intel Arc Graphics,17.0,2560x1600,Windows 11 Home,77.0,1728.99,1,0.76
+Intel Core Ultra 7-155U,16.0,DDR5,1.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,57.0,1575.99,1,0.86
+AMD 3000-3020E,8.0,DDR4,256.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,42.0,538.99,0,0.03
+Intel Core Ultra 7-155U,16.0,DDR5,512.0,Intel Graphics,16.0,1920x1200,Windows 11 Pro,57.0,1558.0,1,0.97
+Intel Core i9-14900HX,32.0,DDR5,1.0,Intel® UHD Graphics,16.0,2560x1600,Windows 11 Home,95.0,3906.33,0,0.15
+Intel Core i7-11700K,32.0,DDR4,1000.0,Intel UHD Graphics 750,,,Windows 10 Home,,2943.0,1,0.52
+Intel Core Ultra 7-155H,16.0,DDR5,512.0,Intel Arc Graphics,17.0,2560x1600,Windows 11 Home,77.0,1378.0,1,0.97
+Intel Core i5-1235U,8.0,DDR5,256.0,Intel Iris Xe Graphics,12.4,1536x1024,Windows 11 Home,41.0,1134.99,1,0.53
+Intel Core i5-1235U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Pro,40.0,540.0,1,0.99
+Intel Core Ultra 5-125U,16.0,DDR5,512.0,Intel Graphics,13.3,1920x1200,Windows 11 Pro,54.0,1826.99,1,0.97
+Intel Core 5-120U,16.0,DDR5,512.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,53.0,943.99,0,0.3
+Qualcomm Snapdragon-X1P-42-100,16.0,DDR5,1.0,Qualcomm Adreno GPU,14.0,1920x1200,Windows 11 Home,57.0,1111.99,0,0.03
+AMD Ryzen 7-7730U,8.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,38.0,548.0,0,0.14
+AMD Ryzen 5 PRO-7530U,16.0,DDR4,512.0,AMD Radeon Graphics,13.3,1920x1200,Windows 11 Pro,46.0,1086.99,0,0.1
+AMD Ryzen AI 9-365,32.0,DDR5,1.0,AMD Radeon 880M,14.5,2880x1800,Windows 11 Home,73.0,1908.99,0,0.0
+AMD Ryzen 5-7535U,16.0,DDR5,512.0,AMD Radeon 660M,14.0,1920x1200,Windows 11 Pro,57.0,1083.99,0,0.1
+Intel Core i7-1255U,8.0,DDR4,512.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,48.0,616.0,1,0.99
+Intel Core i5-1335U,16.0,DDR4,512.0,Intel Iris Xe Graphics,14.0,1920x1200,Windows 11 Pro,50.0,770.99,1,0.96
+Intel Core i3 N-series-i3-N305,8.0,DDR5,128.0,Intel® UHD Graphics,14.0,1920x1080,ChromeOS,,624.99,0,0.37
+AMD Ryzen AI 7 PRO-360,32.0,DDR5,512.0,AMD Radeon 880M,14.0,1920x1200,Windows 11 Pro,58.0,2158.99,0,0.09
+Intel Core Ultra 7-155U,16.0,DDR5,512.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,57.0,2830.0,1,0.67
+Intel Core i7-13700H,16.0,DDR5,1.0,Intel Iris Xe Graphics,16.0,3840x2400,Windows 11 Home,88.0,1510.99,0,0.33
+AMD Ryzen 7-5825C,16.0,DDR4,256.0,AMD Radeon Graphics,14.0,1920x1080,ChromeOS,,962.0,0,0.02
+Intel Core i5-1135G7,8.0,DDR4,128.0,Intel Iris Xe Graphics,15.6,1920x1080,ChromeOS,,780.99,1,0.81
+Intel Core i5-1340P,16.0,DDR5,512.0,Intel Iris Xe Graphics,15.6,1920x1080,No,80.0,1001.0,1,0.98
+Intel Core Ultra 7-155U,16.0,DDR5,512.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,57.0,1553.99,1,0.98
+Intel Core Ultra 5-125U,8.0,DDR5,256.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,45.0,835.99,1,0.96
+Intel Core Ultra 7-155H,32.0,DDR5,1.0,Intel Arc Graphics,16.0,1920x1200,Windows 11 Pro,75.0,2324.0,1,0.66
+Intel Core i7-12650HX,16.0,DDR5,512.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,57.0,1100.99,1,0.99
+Intel Core i7-8750H,32.0,DDR4,1.0,Intel® UHD Graphics 630,15.6,1920x1080,Windows 10 Pro,,1142.86,1,0.7
+Intel Core i5-135U,16.0,DDR5,512.0,Intel Arc Graphics,13.5,2256x1504,Windows 11,,1663.99,1,0.58
+Intel Core Ultra 5-125U,16.0,DDR5,512.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,58.0,1890.0,1,0.97
+Qualcomm Snapdragon-X1P-42-100,32.0,DDR5,1.0,Qualcomm Adreno GPU,14.0,1920x1200,Windows 11 Home,57.0,1333.99,0,0.02
+AMD Ryzen 5-5625U,16.0,DDR4,512.0,AMD Radeon Graphics,15.6,1920x1080,Windows 11 Home,42.0,596.99,0,0.14
+Intel Core Ultra 7-155U,32.0,DDR5,1.0,Intel Graphics,14.0,1920x1200,Windows 11 Pro,57.0,2836.0,0,0.43
+Qualcomm Snapdragon-X1E-80-100,16.0,DDR5,,,13.0,2880x1920,Windows 11 Pro,53.0,1837.99,0,0.08
+Intel Core i7-13620H,16.0,DDR5,1.0,Intel® UHD Graphics,16.0,1920x1200,FreeDOS,54.0,1117.46,1,0.75
+Intel Core i7-12650HX,16.0,DDR5,512.0,Intel® UHD Graphics,15.6,1920x1080,Windows 11 Home,57.0,1112.99,1,0.99
+Intel Core Ultra 7-155H,16.0,DDR5,1.0,,17.0,2560x1600,Windows 11 Home,77.0,1458.99,1,0.76
+AMD Ryzen 7-7435HS,24.0,DDR5,1.0,No disponible,15.6,1920x1080,No,60.0,1001.0,0,0.07
+Qualcomm Snapdragon-X1E-80-100,16.0,DDR5,512.0,Qualcomm Adreno GPU,13.8,2304x1536,Windows 11 Home,54.0,1558.0,0,0.08
+Intel Core i5-12450H,16.0,DDR4,512.0,Intel® UHD Graphics,16.0,1920x1200,No,70.0,1099.0,1,0.95
+AMD Ryzen 5-7520U,16.0,DDR5,512.0,AMD Radeon 610M,15.6,1920x1080,Windows 11 Home,42.0,499.0,0,0.13
+Qualcomm Snapdragon-X1E-78-100,32.0,DDR5,1.0,Qualcomm Adreno GPU,15.6,2880x1620,Windows 11 Home,70.0,1399.0,0,0.01
+AMD Ryzen 5-7535U,16.0,DDR5,512.0,AMD Radeon 660M,15.6,2880x1620,Windows 11 Home,67.0,1199.0,0,0.1
+Intel Core i5-1135G7,8.0,DDR4,256.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Home,,677.0,1,0.87
+Intel Core i7-1255U,16.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,Windows 11 Pro,48.0,852.0,1,1.0
+Intel Core i7-1255U,8.0,DDR4,512.0,Intel Iris Xe Graphics,15.6,1920x1080,No,38.0,782.99,1,1.0
+Intel Core Ultra 9-185H,32.0,DDR5,2.0,Intel Arc Graphics,14.0,2880x1800,Windows 11 Home,75.0,2599.0,0,0.34
+AMD Ryzen 5-7520U,8.0,DDR5,512.0,AMD Radeon 610M,15.6,1920x1080,Windows 11 Home,42.0,599.0,0,0.12
+AMD Ryzen AI 9 HX-370,32.0,DDR5,1.0,AMD Radeon 890M,13.3,2880x1800,Windows 11 Home,73.0,2199.0,0,0.0
+Intel Core i5-1340P,16.0,DDR5,512.0,Intel Iris Xe Graphics,15.0,1920x1080,Windows 11 Pro,9360.0,1219.99,1,0.95

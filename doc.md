@@ -238,18 +238,12 @@ Els "chollos" identificats tendeixen a ser:
 2. Equips econòmics amb especificacions sorprenentment bones
 3. Models amb característiques equilibrades i preus competitius
 
-## Limitacions i Millores Futures
+## Limitacions
 
 - **Dades temporals:** Els preus i les especificacions canvien amb el temps, cal actualitzar regularment el model.
 - **Aspectes qualitatius:** No es consideren factors com la qualitat de construcció, teclat o pantalla.
 - **Marca i reputació:** No s'han incorporat factors de marca o servei postvenda.
 - **Disponibilitat:** No es considera si el producte està disponible o no.
-
-En futures versions es podria incorporar:
-- Anàlisi de sentiment de ressenyes d'usuaris
-- Històric de preus per a detectar ofertes temporals
-- Comparació amb models similars del mateix fabricant
-- Més detalls tècnics com tipus de panell, taxa de refresc, etc.
 
 ## Ús i Interpretació
 
@@ -262,10 +256,3 @@ El fitxer `chollos.csv` pot ser utilitzat per a:
 Les columnes més rellevants per a l'usuari final són:
 - **Chollo:** Indica si és una bona oferta (1) o no (0)
 - **Probabilidad_Chollo:** Indica la confiança del model en aquesta classificació (0-1)
-
-## Recursos i Referències
-
-- Scikit-learn: https://scikit-learn.org/
-- Pandas: https://pandas.pydata.org/
-- Seaborn: https://seaborn.pydata.org/
-- Matplotlib: https://matplotlib.org/

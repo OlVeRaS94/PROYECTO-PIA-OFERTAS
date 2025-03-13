@@ -1,5 +1,9 @@
 import flet as ft
 import requests
+import pandas as pd
+
+# Cargar datos del CSV para obtener las opciones de los dropdowns
+df = pd.read_csv('chollos.csv')
 
 def main(page: ft.Page):
     page.title = "Buscador de Ofertas de Portátiles"
@@ -54,17 +58,28 @@ def main(page: ft.Page):
         
         page.update()
 
+    # Obtener opciones únicas para los dropdowns
+    processor_options = [ft.dropdown.Option(value) for value in df['Procesador'].unique()]
+    ram_options = [ft.dropdown.Option(str(value)) for value in df['RAM'].unique()]
+    ram_type_options = [ft.dropdown.Option(value) for value in df['Tipo RAM'].unique()]
+    storage_options = [ft.dropdown.Option(str(value)) for value in df['Almacenamiento'].unique()]
+    graphics_options = [ft.dropdown.Option(value) for value in df['Graficos'].unique()]
+    screen_options = [ft.dropdown.Option(str(value)) for value in df['Pantalla'].unique()]
+    resolution_options = [ft.dropdown.Option(value) for value in df['Resolucion'].unique()]
+    os_options = [ft.dropdown.Option(value) for value in df['Sistema Operativo'].unique()]
+    battery_options = [ft.dropdown.Option(str(value)) for value in df['Bateria'].unique()]
+
     # Componentes UI
-    processor = ft.TextField(label="Procesador", expand=True)
-    ram = ft.TextField(label="RAM mínima (GB)", width=150, input_filter=ft.NumbersOnlyInputFilter())
-    ram_type = ft.TextField(label="Tipo RAM", width=150)
-    storage = ft.TextField(label="Almacenamiento (GB)", width=150)
-    graphics = ft.TextField(label="Tarjeta gráfica", width=150)
-    screen = ft.TextField(label="Tamaño pantalla", width=150)
-    resolution = ft.TextField(label="Resolución", width=150)
-    os = ft.TextField(label="Sistema operativo", width=150)
-    battery = ft.TextField(label="Batería (Wh)", width=150)
-    price = ft.TextField(label="Precio máximo (€)", input_filter=ft.NumbersOnlyInputFilter())
+    processor = ft.Dropdown(label="Procesador", options=processor_options, expand=True)
+    ram = ft.Dropdown(label="RAM mínima (GB)", options=ram_options, width=150)
+    ram_type = ft.Dropdown(label="Tipo RAM", options=ram_type_options, width=150)
+    storage = ft.Dropdown(label="Almacenamiento (GB)", options=storage_options, width=150)
+    graphics = ft.Dropdown(label="Tarjeta gráfica", options=graphics_options, width=150)
+    screen = ft.Dropdown(label="Tamaño pantalla", options=screen_options, width=150)
+    resolution = ft.Dropdown(label="Resolución", options=resolution_options, width=150)
+    os = ft.Dropdown(label="Sistema operativo", options=os_options, width=150)
+    battery = ft.Dropdown(label="Batería (Wh)", options=battery_options, width=150)
+    price = ft.TextField(label="Precio máximo (€)", width=150)
     
     result_text = ft.Text(selectable=True, size=14)
 

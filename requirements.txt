@@ -5,4 +5,9 @@ beautifulsoup4
 requests
 pandas
 uvicorn
-flet
+numpy
+matplotlib
+seaborn
+sklearn
+joblib
+optuna

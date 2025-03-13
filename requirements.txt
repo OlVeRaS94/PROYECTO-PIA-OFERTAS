@@ -1,0 +1,13 @@
+flask
+fastapi
+selenium
+beautifulsoup4
+requests
+pandas
+uvicorn
+numpy
+matplotlib
+seaborn
+sklearn
+joblib
+optuna

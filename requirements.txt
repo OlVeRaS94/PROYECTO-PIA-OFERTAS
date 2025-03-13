@@ -1,0 +1,7 @@
+flask
+fastapi
+selenium
+beautifulsoup4
+requests
+pandas
+uvicorn

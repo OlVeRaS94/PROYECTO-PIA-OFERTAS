@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 # Cargar modelo y preprocesador
 try:
-    model = joblib.load('/home/aluvesprada/Documentos/PROYECTO_PIA/PROYECTO-PIA-OFERTAS/model/model_chollo.pkl')
-    preprocesador = joblib.load('/home/aluvesprada/Documentos/PROYECTO_PIA/PROYECTO-PIA-OFERTAS/model/preprocessor.pkl')
+    model = joblib.load('model/model_chollo.pkl')
+    preprocesador = joblib.load('model/preprocessor.pkl')
     print("✅ Modelo y preprocesador cargados correctamente")
 except Exception as e:
     print(f"❌ Error cargando modelos: {str(e)}")

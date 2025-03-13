@@ -59,7 +59,6 @@ def main(page: ft.Page):
         page.update()
 
     # Obtener opciones únicas para los dropdowns
-    processor_options = [ft.dropdown.Option(value) for value in df['Procesador'].unique()]
     ram_options = [ft.dropdown.Option(str(value)) for value in df['RAM'].unique()]
     ram_type_options = [ft.dropdown.Option(value) for value in df['Tipo RAM'].unique()]
     storage_options = [ft.dropdown.Option(str(value)) for value in df['Almacenamiento'].unique()]
@@ -70,7 +69,7 @@ def main(page: ft.Page):
     battery_options = [ft.dropdown.Option(str(value)) for value in df['Bateria'].unique()]
 
     # Componentes UI
-    processor = ft.Dropdown(label="Procesador", options=processor_options, expand=True)
+    processor = ft.TextField(label="Procesador", expand=True)
     ram = ft.Dropdown(label="RAM mínima (GB)", options=ram_options, width=150)
     ram_type = ft.Dropdown(label="Tipo RAM", options=ram_type_options, width=150)
     storage = ft.Dropdown(label="Almacenamiento (GB)", options=storage_options, width=150)

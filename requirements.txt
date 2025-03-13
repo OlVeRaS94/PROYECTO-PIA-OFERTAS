@@ -8,6 +8,7 @@ uvicorn
 numpy
 matplotlib
 seaborn
-sklearn
+scikit-learn
 joblib
 optuna
+flet

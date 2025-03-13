@@ -1,18 +1,31 @@
 from flask import Flask, request, jsonify
 import pandas as pd
+import joblib
+import numpy as np
 
 app = Flask(__name__)
+
+# Cargar modelo y preprocesador
+try:
+    model = joblib.load('/home/aluvesprada/Documentos/PROYECTO_PIA/PROYECTO-PIA-OFERTAS/model/model_chollo.pkl')
+    preprocesador = joblib.load('/home/aluvesprada/Documentos/PROYECTO_PIA/PROYECTO-PIA-OFERTAS/model/preprocessor.pkl')
+    print("✅ Modelo y preprocesador cargados correctamente")
+except Exception as e:
+    print(f"❌ Error cargando modelos: {str(e)}")
+    raise
 
 @app.route('/search_offers', methods=['POST'])
 def search_offers():
     try:
-        filters = request.json
+        # 1. Cargar datos y parámetros
         df = pd.read_csv('chollos.csv')
-
-        # Aplicar filtros
+        filters = request.json
+        print("\n🔍 Filtros recibidos:", filters)
+        
+        # 2. Aplicar filtros básicos
         filtered_df = df.copy()
         
-        # Filtro por procesador (búsqueda parcial insensible a mayúsculas)
+        # Filtro por procesador
         if filters.get("processor"):
             filtered_df = filtered_df[
                 filtered_df["Procesador"].str.contains(
@@ -21,7 +34,7 @@ def search_offers():
                     na=False
                 )
             ]
-
+        
         # Filtros numéricos/exactos
         exact_filters = {
             "ram": "RAM",
@@ -34,27 +47,47 @@ def search_offers():
             "battery": "Bateria",
             "price": "Precio"
         }
-
+        
         for key, col in exact_filters.items():
             if filters.get(key):
-                if key in ["ram", "storage", "battery", "price"]:  # Campos numéricos
+                if key in ["ram", "storage", "battery", "price"]:
                     filtered_df = filtered_df[filtered_df[col] <= float(filters[key])]
-                else:  # Campos de texto exacto
+                else:
                     filtered_df = filtered_df[filtered_df[col] == filters[key]]
-
-        # Filtrar SOLO ofertas buenas (Chollo = 1)
-        filtered_df = filtered_df[filtered_df["Chollo"] == 1]
         
-        # Formatear resultados
-        filtered_df.fillna("N/A", inplace=True)
-        filtered_df["es_buena_oferta"] = "✅ Buena oferta"
+        print("📊 Datos después de filtros básicos:", filtered_df.shape[0])
         
+        # 3. Aplicar IA si hay resultados
+        if not filtered_df.empty:
+            try:
+                # Preprocesamiento
+                X_pred = preprocesador.transform(filtered_df)
+                
+                # Predicción
+                probabilidades = model.predict_proba(X_pred)[:, 1]
+                predicciones = model.predict(X_pred)
+                
+                # Añadir resultados
+                filtered_df['Prediccion_IA'] = predicciones.astype(int)
+                filtered_df['Probabilidad_IA'] = np.round(probabilidades * 100, 1)
+                
+                # Filtrar por IA
+                filtered_df = filtered_df[filtered_df['Prediccion_IA'] == 1]
+                print("🎯 Ofertas después de IA:", filtered_df.shape[0])
+                
+            except Exception as e:
+                print(f"❌ Error en IA: {str(e)}")
+                return jsonify({"error": f"Error en IA: {str(e)}"}), 500
+        
+        # 4. Formatear respuesta
+        result_df = filtered_df.replace({np.nan: None})
         return jsonify({
-            "offers": filtered_df.astype(str).to_dict(orient='records')
+            "offers": result_df.to_dict(orient='records')
         })
-
+    
     except Exception as e:
+        print(f"🔥 Error crítico: {str(e)}")
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
